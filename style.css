@@ -1,4 +1,29 @@
 @import url(https://fonts.googleapis.com/css?family=);
-margin{
+
+body{
+  margin: 0px;
+  
+}
+header{
+  margin: 0px;
+  padding-top: 24px;
   background: #29335C;
+  color: #D0C9C9;
+  font-family: 
+}
+
+main{
+  margin: 0px;
+  padding: 20px;
+  background: #4E9AD0;
+}
+
+footer{
+  margin: 0;
+  padding-bottom: 24px;
+  background: #3D1100;
+  color: #D0C9C9;
+}
+.center-text{
+  text-align: center;
 }
