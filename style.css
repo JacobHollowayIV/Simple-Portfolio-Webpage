@@ -1,28 +1,76 @@
-@import url(https://fonts.googleapis.com/css?family=);
+@import url('https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap');
 
 body{
   margin: 0px;
+  font-family: 'Sawarabi Mincho', serif;
+}
+a:link {color: #eaeaea; }
+a:visited {color: #BC958A;}
+a:hover {color: #eaeaea;}
+a:active {color: #322E18;}
+
+header{
+  margin: 12px;
+  padding: 24px;
+  background: #4a1942;
+  color: #eaeaea;
+  
   
 }
-header{
-  margin: 0px;
-  padding-top: 24px;
-  background: #29335C;
-  color: #D0C9C9;
-  font-family: 
+
+h1{
+  font-size: 48px;
 }
 
+h3{
+ 
+}
+
+h4{
+  font-size: 15px;
+}
+
+h5{
+  font-size: 12px;
+}
+
+body {
+  background: #BC958A;
+}
+img {
+  float: right;
+   border-radius: 25%;
+  padding: 5px
+}
+
+hr {
+  margin: 40px;
+  border-width: 1px;
+  border-color: #4a1942;
+}
+
+section{
+  font-size: 15px;
+}
 main{
-  margin: 0px;
+  margin: 5px;
   padding: 20px;
-  background: #4E9AD0;
+  color: #322e18;
 }
 
 footer{
-  margin: 0;
-  padding-bottom: 24px;
-  background: #3D1100;
-  color: #D0C9C9;
+  margin: 12px;
+  padding: 2px 0px 2px;
+  background: #2e1c2b;
+  color: #eaeaea;
+  
+}
+
+footer div{
+  margin: 15px
+}
+.right-text{
+  text-align: right;
 }
 .center-text{
   text-align: center;
