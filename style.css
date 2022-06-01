@@ -1,14 +1,14 @@
+/*The Google Fonts import link*/
 @import url('https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap');
 
+/*I added the font above to the entire body for now, and added a Tuscany colored background to the entire page*/
 body{
   margin: 0px;
   font-family: 'Sawarabi Mincho', serif;
+  background: #BC958A;
 }
-a:link {color: #eaeaea; }
-a:visited {color: #BC958A;}
-a:hover {color: #eaeaea;}
-a:active {color: #322E18;}
 
+/*I played around with margins here, and ultimately settled on some space around the edges*/
 header{
   margin: 12px;
   padding: 24px;
@@ -20,6 +20,11 @@ header{
 
 h1{
   font-size: 48px;
+}
+
+/*These are empty for now, but I left them here just in case I decided to style later*/
+h2 {
+  
 }
 
 h3{
@@ -34,9 +39,7 @@ h5{
   font-size: 12px;
 }
 
-body {
-  background: #BC958A;
-}
+/*This was my solution to get the image where I wanted it, by using the float element*/
 img {
   float: right;
    border-radius: 25%;
@@ -53,6 +56,7 @@ section{
   font-size: 15px;
 }
 main{
+  line-height: 25px;
   margin: 5px;
   padding: 20px;
   color: #322e18;
@@ -75,3 +79,9 @@ footer div{
 .center-text{
   text-align: center;
 }
+
+/*Here The links are styled using parts of my color pallette, I moved it down in between submissions so it is most important, and added a darker brown for when it's already been visited*/
+a:link {color: #BC958A;}
+a:visited {color: #9B6859;}
+a:hover {color: #eaeaea;}
+a:active {color: #322E18;}
